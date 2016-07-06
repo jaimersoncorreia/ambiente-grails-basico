@@ -4,7 +4,7 @@ O ambiente Grails básico tem como intuito permitir que o usuário consiga testa
 
 Para construir localmente esse ambiente use o seguinte comando:
 
-**docker build https://github.com/vaidegrails/ambiente_grails_basico.git**
+**docker build https://github.com/vaidegrails/ambiente-grails-basico.git**
 
 Se preferir, pode clonar o repositório, entrar no diretório, e construir o ambiente usando:
 
@@ -14,8 +14,8 @@ Desses dois modos, será gerada uma imagem sem repositório e sem tag. É recome
 
 **-t \<repositorio\>[:\<tag\>]**
 
-Por exemplo, para o respositório vaidegrails/ambiente_grails_basico, e tag 2.0.0 teremos respectivamente para os dois comandos:
+Por exemplo, para o repositório vaidegrails/ambiente-grails-basico, e tag 2.0.0 teremos respectivamente para os dois comandos:
 
-**docker build -t vaidegrails/ambiente_grails_basico:2.0.0 https://github.com/vaidegrails/ambiente_grails_basico.git**
+**docker build -t vaidegrails/ambiente-grails-basico:2.0.0 https://github.com/vaidegrails/ambiente-grails-basico.git**
 
-**docker build -t vaidegrails/ambiente_grails_basico:2.0.0 .**
+**docker build -t vaidegrails/ambiente-grails-basico:2.0.0 .**
