@@ -19,3 +19,5 @@ Por exemplo, para o repositório vaidegrails/ambiente-grails-basico, e tag 2.0.0
 **docker build -t vaidegrails/ambiente-grails-basico:2.0.0 https://github.com/vaidegrails/ambiente-grails-basico.git**
 
 **docker build -t vaidegrails/ambiente-grails-basico:2.0.0 .**
+
+[![](https://images.microbadger.com/badges/version/vaidegrails/ambiente-grails-basico.svg)](https://microbadger.com/images/vaidegrails/ambiente-grails-basico "Get your own version badge on microbadger.com")
